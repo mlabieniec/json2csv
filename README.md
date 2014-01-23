@@ -228,6 +228,11 @@ carModel,price,color
 "Porsche",30000,"green"
 ```
 
+#### Nested Objects
+```bash
+$ json2csv -i input.json -l -f data,data.property,data.another.0 -o out.csv
+```
+
 #### Read from stdin
 
 ```bash
